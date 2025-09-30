@@ -70,9 +70,16 @@ li {
 .bg-orange {
   background-color: orange;
 }
+.bg-violet {
+  background-color: violet;
+}
+.bg-greenyellow {
+  background-color: greenyellow;
+}
 .pd-left-top {
   padding: 30px 50px;
 }
+
 /* sezione superiore con logo e titolo  */
 header {
   height: 80px;
