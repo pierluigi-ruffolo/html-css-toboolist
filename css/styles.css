@@ -4,10 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* stile generale della pagina, font e colore di sfondo */
+/* stile generale della pagina,*/
 body {
   font-family: sans-serif;
   background-color: rgba(182, 181, 181, 0.733);
+}
+h3 {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 25px;
 }
 /* LAYOUT: contenitore centrale che racchiude tutto il contenuto */
 .container {
@@ -24,7 +35,44 @@ body {
 .bg-blue {
   background-color: rgba(0, 179, 255, 0.835);
 }
+.cl-br-green {
+  color: green;
+  border: 2px solid green;
+}
+.cl-br-red {
+  color: red;
+  border: 2px solid red;
+}
 
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+.badge {
+  padding: 8px;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-orange {
+  background-color: orange;
+}
+.pd-left-top {
+  padding: 30px 50px;
+}
 /* sezione superiore con logo e titolo  */
 header {
   height: 80px;
