@@ -10,14 +10,23 @@ body {
   background-color: rgba(182, 181, 181, 0.733);
 }
 /* LAYOUT: contenitore centrale che racchiude tutto il contenuto */
-.conteiner {
+.container {
   width: 70%;
   margin: 50px auto;
+  border-radius: 5px;
+}
+
+/* Utlities */
+
+.bg-white {
+  background-color: white;
+}
+.bg-blue {
+  background-color: rgba(0, 179, 255, 0.835);
 }
 
 /* sezione superiore con logo e titolo  */
 header {
-  background-color: white;
   height: 80px;
   padding: 10px;
 }
@@ -31,4 +40,28 @@ header h1 {
 
 header img {
   vertical-align: middle;
+}
+/* Barra nuova task (sopra la lista) */
+.section-task {
+  border-bottom: 2px solid rgba(182, 181, 181, 0.733);
+  padding: 10px 50px;
+}
+/*Bottoni generici */
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Bottone blu: aggiungi task */
+.add-task {
+  color: white;
+  border: 3px solid rgba(0, 179, 255, 0.835);
+}
+/* Bottone bianco: aggiungi sezione */
+.add-section {
+  color: rgba(182, 181, 181, 0.733);
+  border: 3px solid rgba(128, 128, 128, 0.527);
+  margin-left: 5px;
 }
